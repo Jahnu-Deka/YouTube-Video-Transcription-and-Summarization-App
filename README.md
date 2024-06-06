@@ -2,7 +2,7 @@
 
 Gen AI Project
 
-This project aims to build an end-to-end application that uses Google Gini Pro to transcribe and summarize YouTube videos. The application leverages the YouTube Transcript API to extract the transcript text and Google Gini Pro's generate_content function to summarize the transcript. 
+This project aims to build an end-to-end application that uses Google Gemini Pro to transcribe and summarize YouTube videos. The application leverages the YouTube Transcript API to extract the transcript text and Google Gini Pro's generate_content function to summarize the transcript. 
 
 ## Table of Contents
 - [Project Objective](#project-objective)
@@ -16,7 +16,7 @@ This project aims to build an end-to-end application that uses Google Gini Pro t
 
 ## Project Objective
 
-Build an end-to-end project using Google Gini Pro to transcribe and summarize YouTube videos.
+Build an end-to-end project using Google Gemini Pro to transcribe and summarize YouTube videos.
 
 ## Key Functionalities
 - **Extract Transcript:** Fetch the transcript text from a YouTube video URL using YouTube Transcript API.
@@ -80,7 +80,7 @@ Build an end-to-end project using Google Gini Pro to transcribe and summarize Yo
 
 2. In the Streamlit interface:
     - Enter the YouTube video URL.
-    - Click the "Summarize" button to fetch the transcript and generate the summary.
+    - Click the "Get Details Now" button to fetch the transcript and generate the summary.
     - View the video thumbnail and the summarized content.
 
 ## Requirements
